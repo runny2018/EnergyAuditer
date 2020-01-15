@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".VentilationActivity">
+
+    <TextView
+        android:id="@+id/textview_enterinfeet"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter in feet"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edittext_length"
+        android:layout_below="@id/textview_enterinfeet"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:hint="Length"/>
+
+    <EditText
+        android:id="@+id/edittext_width"
+        android:layout_below="@id/textview_enterinfeet"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:layout_toRightOf="@id/edittext_length"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:hint="Width"/>
+
+    <EditText
+        android:id="@+id/edittext_height"
+        android:layout_below="@id/textview_enterinfeet"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:layout_toRightOf="@id/edittext_width"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:hint="Height"/>
+
+    <TextView
+        android:id="@+id/textview_chooseroomtype"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Room Type"
+        android:layout_below="@id/edittext_length"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <Spinner
+        android:id="@+id/spinner_chooseroomtype"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/textview_chooseroomtype"
+        android:layout_margin="8dp"/>
+
+
+
+
+</RelativeLayout>

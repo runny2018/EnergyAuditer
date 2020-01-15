@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Energy Auditer 100</string>
+    
+    <string-array name="room_types">
+        <item>Boiler Room</item>
+        <item>Engine Room</item>
+        <item>Factory Building</item>
+        <item>Factory Building (with fumes)</item>
+        <item>Foundries</item>
+        <item>Galvanizing Plants</item>
+    </string-array>
+</resources>
